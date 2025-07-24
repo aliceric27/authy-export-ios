@@ -51,6 +51,7 @@
 在終端機輸入以下程式碼，會立即整理並產生所有可以掃描的 QR CODE 可以使用 Google、Microsoft Auth 驗證器掃描並加入
 
 ```
+pip install qrcode
 python googleauth.py decrypted_tokens.json
 ```
 
